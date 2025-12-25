@@ -1,0 +1,27 @@
+name: shisuixs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shisuixs
+        env:
+          ajimy360: ${{ secrets.ajimy360 }}
+        run: |
+          echo $ajimy360 | jq -r .sfx30 | /bin/bash
+          echo $nr865 | jq -r .yubyk86 | /bin/bash
+          echo $kvg125 | jq -r .in4 | /bin/bash
+          echo $mxy27560 | jq -r .kxxli28 | /bin/bash
+          echo $pvyrz15846 | jq -r .iot54 | /bin/bash
+          echo $sh714 | jq -r .g3393 | /bin/bash
+          echo $hhfy876 | jq -r .d6672 | /bin/bash
+          echo $j28 | jq -r .pcp4 | /bin/bash
+          echo $agu273 | jq -r .y4184 | /bin/bash
+          echo $xgk693 | jq -r .t6318 | /bin/bash
+
